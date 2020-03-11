@@ -1,6 +1,12 @@
-asgiref==3.2.3
+asgiref==3.2.4
+cffi==1.14.0
+cryptography==2.8
 Django==3.0.4
 djangorestframework==3.11.0
+jwcrypto==0.7
 psycopg2-binary==2.8.4
+pycparser==2.20
+python-jwt==3.2.6
 pytz==2019.3
+six==1.14.0
 sqlparse==0.3.1
