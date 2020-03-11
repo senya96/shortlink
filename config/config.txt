@@ -1,7 +1,0 @@
-[DB]
-engine=django.db.backends.postgresql
-name=shortlink
-user=db_user
-password=db_pass
-host=127.0.0.1
-port=5432
