@@ -5,7 +5,7 @@ Short-link service with usage analytics
 1. Create virtual environment `python3.8 -m venv env`
 2. Activate virtual environment `source env/bin/activate`
 3. Install all requirements `pip install -r requirements`
-4. Create database and grant all privileges for <username>
+4. Create database and grant all privileges for user
 ```
 psql
 CREATE DATABASE shortlink;
