@@ -35,7 +35,7 @@ def auth_required(superuser_required):
                 if user_id is None:
                     raise PermissionDenied
                 request.user = get_user(user_id)
-                if not request.user or not request.user.is_superuser:
+                if not request.user or (superuser_required and not request.user.is_superuser):
                     raise PermissionDenied
                 return func(self, request, *args, **kwargs)
         return wrapped2
